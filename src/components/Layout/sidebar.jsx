@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom'
 
 export default function Sidebar(){
 return (
-<aside className="w-60 bg-white border-r min-h-screen p-4">
+<aside className="min-h-screen p-4 bg-white border-r w-60">
 <nav className="flex flex-col gap-2">
 <NavLink to="/" className={({isActive}) => isActive ? 'font-semibold' : ''}>Dashboard</NavLink>
 <NavLink to="/profile">Profile</NavLink>
